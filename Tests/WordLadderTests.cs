@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Globalization;
 using Xunit;
 
@@ -11,7 +12,12 @@ namespace Tests
         public void Main()
         {
             var wordLadder = new WordLadder.NET.WordLadder();
-            wordLadder.FindShortestPath("cat", "dog");
+            var list = wordLadder.FindShortestPath("dot", "cog");
+
+            foreach (var element in list)
+            {
+               Console.WriteLine(element);
+            }
         }
         
         [Fact]
