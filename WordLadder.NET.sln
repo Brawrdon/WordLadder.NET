@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordLadder.NET", "WordLadder.NET\WordLadder.NET.csproj", "{607E4E68-C283-4112-998A-7E4CDC74547B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{9DFF7BA4-1C20-4B2D-A598-D3823EC49DA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{607E4E68-C283-4112-998A-7E4CDC74547B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{607E4E68-C283-4112-998A-7E4CDC74547B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{607E4E68-C283-4112-998A-7E4CDC74547B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFF7BA4-1C20-4B2D-A598-D3823EC49DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFF7BA4-1C20-4B2D-A598-D3823EC49DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFF7BA4-1C20-4B2D-A598-D3823EC49DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFF7BA4-1C20-4B2D-A598-D3823EC49DA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
